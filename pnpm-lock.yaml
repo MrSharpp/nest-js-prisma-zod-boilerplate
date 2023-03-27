@@ -29,15 +29,17 @@ specifiers:
   ts-node: ^10.8.2
   tsconfig-paths: ^4.0.0
   typescript: ^4.7.4
+  zod: ^3.21.4
 
 dependencies:
   '@nestjs/common': 9.3.12_mnr6j2del53muneqly5h4y27ai
   '@nestjs/core': 9.3.12_qhubmme3ystyvorrsy6sfc2ome
   '@nestjs/platform-express': 9.3.12_ge4qplnzbmfyi5znl534zhtkn4
-  nestjs-zod: 1.2.3_ge4qplnzbmfyi5znl534zhtkn4
+  nestjs-zod: 1.2.3_2hoxxra5hjthzxpq3lbgpr6lhe
   prisma: 4.11.0
   reflect-metadata: 0.1.13
   rxjs: 7.8.0
+  zod: 3.21.4
 
 devDependencies:
   '@nestjs/cli': 9.3.0
@@ -3869,7 +3871,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /nestjs-zod/1.2.3_ge4qplnzbmfyi5znl534zhtkn4:
+  /nestjs-zod/1.2.3_2hoxxra5hjthzxpq3lbgpr6lhe:
     resolution: {integrity: sha512-AGxxRTwgXe4CCfNfhK1kEnwYABRbMyqVPFtXuPEk5pFPDVRnHhHFmqcd2ulDE4NMUiudZusQgrtZsGHB7cibKQ==}
     peerDependencies:
       '@nestjs/common': '>= 8.0.0'
@@ -3887,6 +3889,7 @@ packages:
       '@nestjs/common': 9.3.12_mnr6j2del53muneqly5h4y27ai
       '@nestjs/core': 9.3.12_qhubmme3ystyvorrsy6sfc2ome
       merge-deep: 3.0.3
+      zod: 3.21.4
     dev: false
 
   /node-abort-controller/3.1.1:
@@ -5127,3 +5130,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod/3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
